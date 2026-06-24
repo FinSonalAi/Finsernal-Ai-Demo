@@ -58,3 +58,4 @@ export function useExitIntent() {
       document.removeEventListener('mouseleave', handleMouseLeave);
     };
   }, [setLocation]);
+}
